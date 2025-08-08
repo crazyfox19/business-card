@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8e1;
+  color: #4a148c;
+}
+
+a {
+  text-decoration: none;
+  color: #4a148c;
+}
+
+header {
+  background-color: #fdd835;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4a148c;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #7b1fa2;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1543353071-873f17a7a088')
+    center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  color: white;
+  background-blend-mode: multiply;
+  background-color: rgba(74, 20, 140, 0.7);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #fdd835;
+  border: none;
+  color: #4a148c;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background-color: #ffee58;
+}
+
+.gallery {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fffde7;
+}
+
+.gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.images img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about,
+.contact {
+  padding: 40px 20px;
+  background-color: #f3e5f5;
+  text-align: center;
+}
+
+footer {
+  background-color: #4a148c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
